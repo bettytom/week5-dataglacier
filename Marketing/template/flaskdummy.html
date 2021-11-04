@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<body>
+   <form action="/predict " method="POST">
+        <input type="number" name="gender"placeholder="Gender"/>
+        <input type="number" name="own" placeholder="Own/rent a home(0-own,1-rent)"/>
+        <input type="number" name="location" placeholder="far/close (far-1 close-0)"/>
+        <input type="number" name="status"placeholder="Married(0 or 1"/>
+        <input type="number" name="salary"placeholder="Salary"/>
+        <input type="number" name="age"placeholder="Age"/>
+        <input type="number" name="cat"placeholder="Catalogs"/>
+        <input type="number" name="child"placeholder="number of children"/>
+        <input type="number" name="buy"placeholder="History of purchase(high-1,low-2,medium-3)"/>
+        
+        <button type="submit" value="submit" class="btn btn-primary">Predict</button>
+        <br><h5  align="center"<b>{{pred}}</b></h5></br>
+
+   </form> 
+</body>
+</html>
